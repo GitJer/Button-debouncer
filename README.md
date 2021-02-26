@@ -51,7 +51,7 @@ Yes, it does. To show that the debouncer works, I have used another microcontrol
 
 ![](debounce_test.png)
 
-The blue line is the unbounced input signal. It bounces up and down a couple of times between point (a) and (b). The yellow line is the debounced pin state. It clearly follows the blue line, but skips over the bounces.
+The blue line is the raw input signal. It bounces up and down a couple of times between point (a) and (b). The yellow line is the debounced pin state. It clearly follows the blue line, but skips over the bounces.
 
 If the debouncing time is chosen too small the yellow line simply follows the blue line including the bounces, but with a slight delay.
 
