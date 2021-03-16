@@ -1,3 +1,11 @@
+# This repository is updated and moved to [here](https://github.com/GitJer/Some_RPI-Pico_stuff/tree/main/Button-debouncer)
+
+Please use the new repository!
+
+
+OLD TEXT:
+
+
 # Button debouncer using the Raspberry Pico PIO 
 
 When using a GPIO to read noisy input, such as a mechanical button, it may happen that the signal read by the microcontroller rapidly switches back and forth, which may lead to false detection of several button presses where only one was intended. To prevent this, some hardware solutions exist as well as software solutions. This project is a software debouncer that makes sure that only after the input signal has stabilized, the code will read the new value. The downside of debouncers is that they usually cost some processing time to function. For Arduino a simple debouncer can be found [here](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Debounce).
